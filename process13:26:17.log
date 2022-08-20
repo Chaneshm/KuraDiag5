@@ -1,0 +1,215 @@
+%MEM %CPU CMD
+ 0.4  0.0 /sbin/init splash
+ 0.0  0.0 [kthreadd]
+ 0.0  0.0 [rcu_gp]
+ 0.0  0.0 [rcu_par_gp]
+ 0.0  0.0 [netns]
+ 0.0  0.0 [kworker/0:0H-events_highpri]
+ 0.0  0.0 [mm_percpu_wq]
+ 0.0  0.0 [rcu_tasks_rude_]
+ 0.0  0.0 [rcu_tasks_trace]
+ 0.0  0.0 [ksoftirqd/0]
+ 0.0  0.0 [rcu_sched]
+ 0.0  0.0 [migration/0]
+ 0.0  0.0 [idle_inject/0]
+ 0.0  0.0 [cpuhp/0]
+ 0.0  0.0 [cpuhp/1]
+ 0.0  0.0 [idle_inject/1]
+ 0.0  0.0 [migration/1]
+ 0.0  0.0 [ksoftirqd/1]
+ 0.0  0.0 [kworker/1:0H-events_highpri]
+ 0.0  0.0 [kdevtmpfs]
+ 0.0  0.0 [inet_frag_wq]
+ 0.0  0.0 [kauditd]
+ 0.0  0.0 [khungtaskd]
+ 0.0  0.0 [oom_reaper]
+ 0.0  0.0 [writeback]
+ 0.0  0.0 [kcompactd0]
+ 0.0  0.0 [ksmd]
+ 0.0  0.0 [khugepaged]
+ 0.0  0.0 [kintegrityd]
+ 0.0  0.0 [kblockd]
+ 0.0  0.0 [blkcg_punt_bio]
+ 0.0  0.0 [tpm_dev_wq]
+ 0.0  0.0 [ata_sff]
+ 0.0  0.0 [md]
+ 0.0  0.0 [edac-poller]
+ 0.0  0.0 [devfreq_wq]
+ 0.0  0.0 [watchdogd]
+ 0.0  0.0 [kworker/0:1H-kblockd]
+ 0.0  0.0 [kswapd0]
+ 0.0  0.0 [ecryptfs-kthrea]
+ 0.0  0.0 [kthrotld]
+ 0.0  0.0 [acpi_thermal_pm]
+ 0.0  0.0 [scsi_eh_0]
+ 0.0  0.0 [scsi_tmf_0]
+ 0.0  0.0 [scsi_eh_1]
+ 0.0  0.0 [scsi_tmf_1]
+ 0.0  0.0 [vfio-irqfd-clea]
+ 0.0  0.0 [mld]
+ 0.0  0.0 [ipv6_addrconf]
+ 0.0  0.0 [kworker/1:1H-kblockd]
+ 0.0  0.0 [kstrp]
+ 0.0  0.0 [zswap-shrink]
+ 0.0  0.0 [kworker/u5:0]
+ 0.0  0.0 [charger_manager]
+ 0.0  0.0 [scsi_eh_2]
+ 0.0  0.0 [scsi_tmf_2]
+ 0.0  0.0 [jbd2/sda3-8]
+ 0.0  0.0 [ext4-rsv-conver]
+ 0.6  0.0 /lib/systemd/systemd-journald
+ 0.0  0.0 [ipmi-msghandler]
+ 0.1  0.0 /lib/systemd/systemd-udevd
+ 0.0  0.0 [ttm_swap]
+ 0.0  0.0 [irq/18-vmwgfx]
+ 0.0  0.0 [card0-crtc0]
+ 0.0  0.0 [card0-crtc1]
+ 0.0  0.0 [card0-crtc2]
+ 0.0  0.0 [card0-crtc3]
+ 0.0  0.0 [card0-crtc4]
+ 0.0  0.0 [card0-crtc5]
+ 0.0  0.0 [card0-crtc6]
+ 0.0  0.0 [card0-crtc7]
+ 0.0  0.0 [iprt-VBoxWQueue]
+ 0.1  0.0 /lib/systemd/systemd-oomd
+ 0.3  0.0 /lib/systemd/systemd-resolved
+ 0.1  0.0 /lib/systemd/systemd-timesyncd
+ 0.2  0.0 /usr/libexec/accounts-daemon
+ 0.0  0.0 /usr/sbin/acpid
+ 0.1  0.0 avahi-daemon: running [chanesh-VirtualBox.local]
+ 0.1  0.0 /usr/sbin/cron -f -P
+ 0.2  0.0 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.4  0.0 /usr/sbin/NetworkManager --no-daemon
+ 0.0  0.0 /usr/sbin/atopacctd
+ 0.1  0.0 /usr/sbin/irqbalance --foreground
+ 0.3  0.0 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+ 0.4  0.0 /usr/libexec/polkitd --no-debug
+ 0.2  0.0 /usr/libexec/power-profiles-daemon
+ 0.1  0.0 /usr/sbin/rsyslogd -n -iNONE
+ 0.2  0.0 /usr/libexec/switcheroo-control
+ 0.1  0.0 /lib/systemd/systemd-logind
+ 0.3  0.0 /usr/libexec/udisks2/udisksd
+ 0.1  0.0 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+ 0.0  0.0 avahi-daemon: chroot helper
+ 0.3  0.0 /usr/bin/python3 /usr/bin/glances -s -B 127.0.0.1
+ 0.3  0.0 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+ 0.2  0.0 /usr/sbin/ModemManager
+ 0.1  0.0 /usr/sbin/kerneloops --test
+ 0.0  0.0 /usr/sbin/kerneloops
+ 0.1  0.0 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+ 0.3  0.0 /usr/sbin/gdm3
+ 0.3  0.0 gdm-session-worker [pam/gdm-autologin]
+ 0.6  0.0 /lib/systemd/systemd --user
+ 0.0  0.0 (sd-pam)
+ 0.1  0.0 /usr/bin/pipewire
+ 0.1  0.0 /usr/bin/pipewire-media-session
+ 0.5  0.0 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ 0.2  0.0 /usr/bin/gnome-keyring-daemon --daemonize --login
+ 0.2  0.0 /usr/libexec/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ 4.3  0.0 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+ 0.0  0.0 /usr/libexec/rtkit-daemon
+ 0.3  0.0 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.2  0.0 /usr/libexec/gvfsd
+ 0.2  0.0 /usr/libexec/xdg-document-portal
+ 0.2  0.0 /usr/libexec/xdg-permission-store
+ 0.0  0.0 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+ 0.2  0.0 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ 0.6  0.0 /usr/libexec/tracker-miner-fs-3
+ 0.3  0.0 /usr/libexec/gnome-session-binary --session=ubuntu
+ 0.3  0.0 /usr/libexec/gvfs-udisks2-volume-monitor
+ 0.2  0.0 /usr/libexec/gvfs-gphoto2-volume-monitor
+ 0.2  0.0 /usr/libexec/gvfs-mtp-volume-monitor
+ 0.2  0.0 /usr/libexec/gvfs-goa-volume-monitor
+ 0.4  0.0 /usr/libexec/goa-daemon
+ 0.0  0.0 /usr/bin/VBoxClient --clipboard
+ 0.1  0.0 /usr/bin/VBoxClient --clipboard
+ 0.0  0.0 /usr/bin/VBoxClient --seamless
+ 0.0  0.0 /usr/bin/VBoxClient --seamless
+ 0.0  0.0 /usr/bin/VBoxClient --draganddrop
+ 0.0  0.3 /usr/bin/VBoxClient --draganddrop
+ 0.0  0.0 /usr/bin/VBoxClient --vmsvga
+ 0.0  0.0 /usr/bin/VBoxClient --vmsvga
+ 0.3  0.0 /usr/libexec/goa-identity-service
+ 0.2  0.0 /usr/libexec/at-spi-bus-launcher
+ 0.2  0.0 /usr/libexec/gvfs-afc-volume-monitor
+ 0.1  0.0 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+ 0.2  0.0 /usr/libexec/upowerd
+ 0.1  0.0 /usr/libexec/gnome-session-ctl --monitor
+ 0.4  0.0 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+10.4  0.1 /usr/bin/gnome-shell
+ 0.4  0.0 /usr/libexec/gnome-shell-calendar-server
+ 0.2  0.0 /usr/libexec/dconf-service
+ 0.4  0.0 /usr/libexec/evolution-source-registry
+ 0.9  0.0 /usr/libexec/packagekitd
+ 0.2  0.0 /usr/libexec/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+ 0.4  0.0 /usr/libexec/evolution-calendar-factory
+ 0.5  0.0 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ 0.2  0.0 /usr/libexec/at-spi2-registryd --use-gnome-session
+ 0.0  0.0 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ 0.2  0.0 /usr/libexec/gsd-a11y-settings
+ 0.4  0.0 /usr/bin/ibus-daemon --panel disable --xim
+ 0.6  0.0 /usr/libexec/gsd-color
+ 0.3  0.0 /usr/libexec/gsd-datetime
+ 0.2  0.0 /usr/libexec/gsd-housekeeping
+ 0.6  0.0 /usr/libexec/gsd-keyboard
+ 0.7  0.0 /usr/libexec/gsd-media-keys
+ 0.6  0.0 /usr/libexec/gsd-power
+ 0.3  0.0 /usr/libexec/gsd-print-notifications
+ 0.2  0.0 /usr/libexec/gsd-rfkill
+ 0.2  0.0 /usr/libexec/gsd-screensaver-proxy
+ 0.2  0.0 /usr/libexec/gsd-sharing
+ 0.2  0.0 /usr/libexec/gsd-smartcard
+ 0.3  0.0 /usr/libexec/gsd-sound
+ 0.6  0.0 /usr/libexec/gsd-wacom
+ 0.7  0.0 /usr/libexec/gsd-xsettings
+ 0.2  0.0 /usr/libexec/gsd-disk-utility-notify
+ 0.9  0.0 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ 0.3  0.0 /usr/libexec/gsd-printer
+ 0.6  0.0 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ 0.3  0.0 /usr/libexec/colord
+ 0.2  0.0 /usr/libexec/gvfsd-metadata
+ 0.2  0.0 /usr/libexec/ibus-dconf
+ 0.7  0.0 /usr/libexec/ibus-extension-gtk3
+ 0.6  0.0 /usr/libexec/ibus-x11 --kill-daemon
+ 5.1  0.0 /snap/snap-store/582/usr/bin/snap-store --gapplication-service
+ 0.2  0.0 /usr/libexec/ibus-portal
+ 0.4  0.0 /usr/libexec/evolution-addressbook-factory
+ 0.4  0.0 /usr/libexec/xdg-desktop-portal
+ 0.7  0.0 /usr/libexec/xdg-desktop-portal-gnome
+ 0.2  0.0 /usr/libexec/ibus-engine-simple
+ 0.7  0.0 /usr/libexec/xdg-desktop-portal-gtk
+ 1.0  0.0 update-notifier
+ 0.0  0.0 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ 0.6  0.0 /usr/lib/snapd/snapd
+ 0.6  0.0 /usr/bin/atop -R -w /var/log/atop/atop_20220820 600
+ 0.4  0.0 /usr/sbin/cupsd -l
+ 0.3  0.0 /usr/sbin/cups-browsed
+ 0.0  0.0 [kworker/1:0-events]
+ 0.3  0.0 /usr/libexec/gvfsd-network --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+ 0.3  0.0 /usr/libexec/gvfsd-dnssd --spawner :1.6 /org/gtk/gvfs/exec_spaw/3
+ 0.0  0.0 [kworker/0:0-events]
+ 2.0  0.3 /usr/libexec/gnome-terminal-server
+ 0.2  0.0 bash
+ 5.5  0.7 /usr/share/code/code --enable-crashpad
+ 1.2  0.0 /usr/share/code/code --type=zygote --no-zygote-sandbox --enable-crashpad --enable-crashpad
+ 1.2  0.0 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+ 0.3  0.0 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+ 0.1  0.0 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/chanesh/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=f0f4c59d-a94d-4f62-b4b7-7c7a7d4a61d5&iid=f0f4c59d-a94d-4f62-b4b7-7c7a7d4a61d5&sid=f0f4c59d-a94d-4f62-b4b7-7c7a7d4a61d5 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.70.2 --annotation=prod=Electron --annotation=ver=18.3.5 --initial-client-fd=43 --shared-client-connection
+ 2.0  0.0 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=26652 --enable-crash-reporter=36798e09-2e24-4e29-ba8e-42c96997d331,no_channel --user-data-dir=/home/chanesh/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9971782163623111088,9481323148948960854,131072 --disable-features=SpareRendererForSitePerProcess --enable-crashpad
+ 9.0  3.0 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=26652 --enable-crash-reporter=36798e09-2e24-4e29-ba8e-42c96997d331,no_channel --user-data-dir=/home/chanesh/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --enable-blink-features=HighlightAPI --lang=en-US --num-raster-threads=1 --renderer-client-id=4 --launch-time-ticks=96155286949 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9971782163623111088,9481323148948960854,131072 --disable-features=SpareRendererForSitePerProcess --vscode-window-config=vscode:27c256d1-6410-4c6d-a0ed-30751bdc03a7 --enable-crashpad
+ 2.6  0.5 /usr/share/code/code --type=gpu-process --enable-crashpad --crashpad-handler-pid=26652 --enable-crash-reporter=36798e09-2e24-4e29-ba8e-42c96997d331,no_channel --user-data-dir=/home/chanesh/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=0,i,9971782163623111088,9481323148948960854,131072 --disable-features=SpareRendererForSitePerProcess
+ 3.7  0.1 /usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+ 4.6  0.2 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=26652 --enable-crash-reporter=36798e09-2e24-4e29-ba8e-42c96997d331,no_channel --user-data-dir=/home/chanesh/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --disable-gpu-compositing --lang=en-US --num-raster-threads=1 --renderer-client-id=6 --launch-time-ticks=96160958635 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9971782163623111088,9481323148948960854,131072 --disable-features=SpareRendererForSitePerProcess --vscode-window-config=vscode:7a983ccd-abc9-47cb-bb37-b5fdf95711f7 --vscode-window-kind=shared-process --enable-crashpad
+ 2.3  0.0 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost --logsPath /home/chanesh/.config/Code/logs/20220820T125644
+ 2.4  0.0 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+ 0.8  0.0 /usr/bin/snap userd
+ 0.0  0.0 [kworker/0:1-mm_percpu_wq]
+ 0.0  0.0 [kworker/u4:1-events_unbound]
+ 2.8  0.1 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1656:929:1:27:0:0:0:0
+ 0.0  0.0 [kworker/u4:2-flush-8:0]
+ 0.0  0.0 [kworker/1:1-mm_percpu_wq]
+ 0.0  0.0 [kworker/u4:0-events_unbound]
+ 0.0  0.0 [kworker/u4:3-flush-8:0]
+ 0.0  0.0 [kworker/1:2]
+ 0.1  0.0 /bin/bash ./diag5.sh
+ 0.0  0.0 ps -xa --format %mem,%cpu,cmd
